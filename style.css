@@ -1,0 +1,209 @@
+* , *::before , *::after{
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.hero , .content ,.footer , .NotHeader ,.information,.quote,.toaction , .card  {
+    display: flex;
+    flex-direction: column;
+
+}
+.header , .container, .information , .recta , .toaction,.quoteText{
+    width: 100%;
+    max-width: 1000px;
+    margin:0 auto;
+    padding:0 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    
+    .logo ,a{
+        font-size:18px ;
+        color: #E5E7EB;
+    }
+    .links{
+        display: flex;
+        gap: 20px;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    
+}
+.hero {
+    background-color: #1F2937;
+    
+
+}
+.container {
+    display: flex;
+    margin-bottom:50px ;
+    
+    .img1{
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .NotHeader {
+       flex: 1;
+       
+       gap: 20px;  
+
+    }
+    .heroimg {
+        flex:1;
+        display: flex;
+        justify-content: center;
+
+    }
+    .img1 
+    {
+        width: 100%;
+        max-width: 450px;
+        height: 200px;
+
+    }
+    .maintext 
+    {
+        font-size: 48px;
+        color: #E5E7EB;
+
+
+    }
+    .sectext
+    {
+        font-size: 18px;
+        color: #E5E7EB;
+    }
+    .SignButton 
+    {
+        background-color: #3882F6;
+        border-radius: 8px;
+        width: 100px;
+        padding: 8px;
+        border : none;
+        font-weight: bold ;
+        color: #E5E7EB;
+    
+    } 
+    
+
+}
+.information {
+    
+    .infoText
+    {
+        align-self: center;
+        font-size: 36px;
+        color:#1F2937;
+        font-weight: 900;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+    }
+    .cards{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .card 
+    {
+        align-items: center;
+        width: 180px;
+        text-align: center;
+    }
+    
+    
+    
+}
+img {
+    height: 150px;
+    width: 180px;
+    object-fit: cover;
+}
+
+.quote 
+{
+    width: 100%;
+    background-color:#E5E7EB ;
+    
+    
+    .quoteText
+    {
+        font-size: 36px;
+        color: #1F2937;
+        font-weight:300 ;
+        padding-top: 80px;
+        padding-left: 80px;
+        padding-right: 80px;
+        
+    }
+    .narrator{
+        font-size: 20px;
+        font-weight: bold;
+        align-self: flex-end;
+        padding-bottom: 80px;
+        padding-right: 100px;
+
+    }
+}
+.toaction
+{
+    
+    .recta{
+        display: flex;
+        border-radius: 5px;
+        background-color: #3882F6;
+        margin: 80px;
+        padding: 50px;
+        
+    }
+    .rectaText1 
+    {
+        font-size: 30px;
+        color: #E5E7EB;
+        font-weight: bold;
+    }
+    .rectaText2 
+    {
+        font-size: 15px;
+        
+        color: #E5E7EB;
+    }
+    .recta-buttonSection 
+    {
+        align-self: center;
+        margin-left: 50px;
+    }
+    .recta-button
+    {
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #3882F6;
+        font-size: 18px;
+        color: white;
+        border: 2px solid #E8E8E8;
+        width: 120px;
+    }
+    
+}
+.footer 
+    {
+        background-color: #1F2937;
+        .footerText 
+        {
+            color:#E5E7EB;
+            align-self: center;
+            margin: 20px;
+        }
+    }
